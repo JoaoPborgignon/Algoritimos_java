@@ -1,5 +1,5 @@
 package aula2;
-public class pessoa { 
+public class pessoa_aula{ 
     String nome;
     int idade;
 

@@ -1,16 +1,16 @@
 
-class Pessoa {
+class Pessoa_aqui {
     String nome;
     double altura;
     double peso;
 
     // Construtor
-    public Pessoa() {
+    public Pessoa_aqui() {
         this.nome = "Fulano";
         this.altura = 1.80;
         this.peso = 80;
     }
-    public Pessoa(String nome, double altura, double peso){
+    public Pessoa_aqui(String nome, double altura, double peso){
         this.nome = nome;
         this.altura = altura;
         this.peso = peso;

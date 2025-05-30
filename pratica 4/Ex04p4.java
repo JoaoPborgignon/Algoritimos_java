@@ -1,16 +1,16 @@
 
-class Pessoa {
+class Pessoa_ex4 {
     String nome;
     double altura;
     double peso;
 
     // Construtor
-    public Pessoa() {
+    public Pessoa_ex4() {
         this.nome = "Fulano";
         this.altura = 1.80;
         this.peso = 80;
     }
-    public Pessoa(String nome, double altura, double peso){
+    public Pessoa_ex4(String nome, double altura, double peso){
         this.nome = nome;
         this.altura = altura;
         this.peso = peso;
@@ -42,7 +42,7 @@ class Pessoa {
 
 public class Ex04p4 {
     public static void main(String args[]){
-        Pessoa p1 = new Pessoa("Pessoa1", 1.60, 90.5);
+        Pessoa_ex4 p1 = new Pessoa_ex4("Pessoa1", 1.60, 90.5);
         System.out.printf("Nome: %s, Altura: %.2f, Peso: %.2f\n", p1.nome, p1.altura, p1. peso);
         System.out.printf("IMC: %.2f\n", p1.calcularIMC());
         System.out.printf("Classificação: %s\n", p1.classificacaoIMC());

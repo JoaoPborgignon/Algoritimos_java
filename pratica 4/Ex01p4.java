@@ -1,25 +1,25 @@
 
-class Aluno {
+class Aluno_p4 {
     String nome;
     int idade;
     char genero;
     long ra;
 
     // Construtor
-    public Aluno() {
-        this.nome = "Aluno";
+    public Aluno_p4() {
+        this.nome = "Aluno_p4";
         this.idade = 18;
         this.genero = 'M';
         this.ra = 123456789;
     }
-    public Aluno(String nome, int idade){
+    public Aluno_p4(String nome, int idade){
         this.nome = nome;
         this.idade = idade;
         this.genero = 'M';
         this.ra = 123456789;
 
     }
-    public Aluno(String nome, char genero, long ra){
+    public Aluno_p4(String nome, char genero, long ra){
         this.nome = nome;
         this.idade = 18;
         this.genero = genero;
@@ -36,7 +36,7 @@ class Aluno {
 public class Ex01p4 {
     public static void main(String args[]){
 
-        Aluno a1 = new Aluno();
+        Aluno_p4 a1 = new Aluno_p4();
         a1.print();
 
     }
