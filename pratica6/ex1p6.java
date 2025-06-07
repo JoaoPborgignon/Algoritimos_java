@@ -68,7 +68,7 @@ class DetalheVeiculos {
             }else{
                 vec[i] = (Moto)vec[i];
             }
-        System.out.printf("%s: %s - %s", (vec[i] instanceof Moto)? "Moto" : "Carro",vec[i].getPlaca(), vec[i].getCor(),(vec[i] instanceof Carro) ? ((Carro) vec[i]).getRodas() : ((Moto) vec[i]).getRodas()
+        System.out.printf("%s: %s - %s - %s\n", (vec[i] instanceof Moto)? "Moto" : "Carro",vec[i].getPlaca(), vec[i].getCor(),(vec[i] instanceof Carro) ? ((Carro) vec[i]).getRodas() : ((Moto) vec[i]).getRodas()
 );
             
         }
